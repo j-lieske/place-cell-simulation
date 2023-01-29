@@ -1,4 +1,7 @@
-# place-cell-simulation
+# Place-Cell-Simulation
+
+This repository holds the code for the project described in my bachelor thesis titled "Klassifizierung von Bildern mithilfe von
+unüberwachtem Lernen mit Kohonen-Netzen".
 
 - kurzer Einführungstext, Verweis auf Arbeit
 
