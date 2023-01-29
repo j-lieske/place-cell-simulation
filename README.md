@@ -9,7 +9,7 @@ The system is split into a frontend running in Unity Version 2020.3 and a backen
 
 
 ## Simulation
-The simulation can be run by importing the frontend directory as a project into Unity. Open the SampleScene in order to access the maze. After starting the simulation the game view shows the perspective of the agent in the maze. It is possible to move using the W and S keys and turn by using the mouse. It is possible to generate training or test data by pressing the N key which will cause the controls to be disabled and start teleporting the agent to random positions in the maze in order to take images of the game view. The number of generated images can be adjusted in the ScreenshotGenerator Game Object.
+The simulation can be run by importing the frontend directory into Unity as a project. Open the SampleScene in order to access the maze. After starting the simulation the game view shows the perspective of the agent in the maze. It is possible to move using the W and S keys and turn by using the mouse. It is possible to generate training or test data by pressing the N key which will cause the controls to be disabled and start teleporting the agent to random positions in the maze in order to take images of the game view. The number of generated images can be adjusted in the ScreenshotGenerator Game Object.
 
 In order to determine the currently activated place unit at runtime of the frontend and display the result in the neural network in the top left corner it is necessary to start the backend server before running the simulation. More on that in the next section. The C key toggles a different view displaying a top-down visualization of the place unit activity in the maze.
 
