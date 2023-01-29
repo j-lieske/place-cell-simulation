@@ -1,0 +1,30 @@
+% This file was created with tikzplotlib v0.10.1.
+\begin{tikzpicture}
+
+\definecolor{darkgray176}{RGB}{176,176,176}
+\definecolor{steelblue31119180}{RGB}{31,119,180}
+
+\begin{axis}[
+tick align=outside,
+tick pos=left,
+x grid style={darkgray176},
+xlabel={Anzahl präsentierter Bilder},
+xmin=-125, xmax=2625,
+xtick style={color=black},
+y grid style={darkgray176},
+ylabel={durchschnittliche Distanz zur BMU},
+ymin=15.6164810569639, ymax=18.3810170954805,
+ytick style={color=black}
+]
+\addplot [semithick, steelblue31119180]
+table {%
+0 18.255356366457
+500 16.2887553174924
+1000 15.9863514594521
+1500 15.9209272736722
+2000 15.7421417859874
+2500 15.8004161933046
+};
+\end{axis}
+
+\end{tikzpicture}
